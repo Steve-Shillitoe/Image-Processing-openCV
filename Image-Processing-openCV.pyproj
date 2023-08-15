@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>c842d0df-7653-4aea-91bb-5017c9df69ea</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Image_Processing_openCV.py</StartupFile>
+    <StartupFile>Drawing_On_An_Image.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Drawing_On_An_Image.py" />
     <Compile Include="Image_Processing_openCV.py" />
   </ItemGroup>
   <ItemGroup>
