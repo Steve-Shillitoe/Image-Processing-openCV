@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>c842d0df-7653-4aea-91bb-5017c9df69ea</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Assessment.py</StartupFile>
+    <StartupFile>Image_Brightness_Contrast.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -29,7 +29,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Drawing_On_An_Image.py" />
+    <Compile Include="Image_Blue_Hue.py" />
+    <Compile Include="Image_Brightness_Contrast.py" />
     <Compile Include="Image_Processing_openCV.py" />
+    <Compile Include="Image_Saturation_Hue.py" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
@@ -47,6 +50,7 @@
     <Content Include="00-puppy.jpg" />
     <Content Include="dog_backpack.jpg" />
     <Content Include="requirements.txt" />
+    <Content Include="Syrup.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
